@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #3f4250;
+  height: 100%;
 }
 
 .App-logo {
@@ -14,14 +16,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #16181d;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
 }
 
 .App-link {
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 15%;
+  left: 43%;
+  width: 60em;
+  margin: 0 0 0 -20em;
+  text-align: center;
+}
+p span {
+  font: 900 4.5em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.7);
+  /* Clip Background Image */
+  background: url(https://www.designtagebuch.de/wp-content/uploads/mediathek/2021/10/unity-logo-redesign-700x350.jpg) repeat-y;
+  background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  text-fill-color: transparent;
+  animation: aitf 32s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+body {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
 }
