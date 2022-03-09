@@ -92,3 +92,6 @@ For both backend and Frontend install packages and run with "Yarn Start" command
     
   
 Backend does not persist any data and works fully in memory
+
+For the changing the port use .env file in client and 
+inline hardcode in backend
