@@ -23,7 +23,7 @@ const TF = styled(TextField)(
 const TextInput = React.forwardRef((props,ref) => {
       return(
         <Box paddingTop={2} paddingBottom={2}>
-            <TF error={props.error} label={props.label} inputRef={ref}  multiline={props.multiline} maxRows={5} color="success" size="small"/>
+            <TF onClick={(e,n)=>{props.onClick(false);}} error={props.error} label={props.label} inputRef={ref}  multiline={props.multiline} maxRows={5} color="success" size="small"/>
         </Box>
       );
     });

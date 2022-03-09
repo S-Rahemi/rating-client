@@ -24,7 +24,7 @@ const LabelDiv = styled.div`
 const RatingDiv = styled(Rating)`
 `;
 export default function HoverRating(props) {
-  const [value, setValue] = React.useState(2);
+  const [value, setValue] = React.useState(4);
   const [hover, setHover] = React.useState(-1);
 
   return (
@@ -33,7 +33,7 @@ export default function HoverRating(props) {
         width: 200,
         display: 'flex',
         alignItems: 'center',
-        paddingTop: 20,
+        paddingTop: 1,
       }}
     >
       <RatingDiv
