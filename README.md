@@ -95,3 +95,8 @@ Backend does not persist any data and works fully in memory
 
 For the changing the port use .env file in client and 
 inline hardcode in backend
+
+According to the time limitation, I implemented the minimal requirements and ignored some simple and technical steps,
+of course we could talk about all of those in the meeting.
+
+Thanks
