@@ -73,7 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # RatingSystem
 Rating system include backend(Expressjs) and frontend(Reactjs)
 
-For both backend and Frontend install packages and run with "Yarn Start" command
+For bothFrontend install packages and run with "Yarn Start" command
+For Backend install packages and run with "nodemon ."
 
 ## API:
   
