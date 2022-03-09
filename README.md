@@ -91,7 +91,8 @@ For both backend and Frontend install packages and run with "Yarn Start" command
     
     
   
-Backend does not persist any data and works fully in memory
+Backend does not persist any data and works fully in memory,
+for making the unique rates, the session id and email paired together and checks in the backend.
 
 For the changing the port use .env file in client and 
 inline hardcode in backend
